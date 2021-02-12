@@ -1,14 +1,19 @@
 {
-  "name": "hello",
+  "name": "radio-player",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
+    "bootstrap": "^4.3.1",
+    "is-reachable": "^4.0.0",
+    "jquery": "^3.5.0",
+    "node-sass": "^4.13.0",
+    "query-string": "^6.11.0",
+    "react": "^16.11.0",
+    "react-bootstrap": "1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-player": "^1.13.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

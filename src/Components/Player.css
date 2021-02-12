@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Each grid part portion */
+#top { flex-grow: 5; }
+#middle { flex-grow: 4; }
+#footer { flex-grow: 1; }
+
+#top,
+#middle,
+#footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#middle #play,
+#middle #loading,
+#middle #pause {
+  max-width: 130px;
+  max-height: 130px;
+  width: 40%;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
