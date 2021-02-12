@@ -110,6 +110,8 @@ class Radio extends React.Component {
       isReady: true,
       isBroadcasting: true,
     });
+     console.log("RADIO IS READY -------------------");
+
   }
 
   togglePlaying() {
